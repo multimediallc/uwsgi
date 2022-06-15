@@ -266,6 +266,7 @@ pep405:
 
 
 	Py_OptimizeFlag = up.optimize;
+	Py_BytesWarningFlag = 1;  // 2 = -bb, 1 = -b
 
 	Py_Initialize();
 
